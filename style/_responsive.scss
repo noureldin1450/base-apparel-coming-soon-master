@@ -1,0 +1,12 @@
+
+
+/*responsive*/
+
+$mobile:  375px;
+
+
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
